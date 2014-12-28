@@ -1,0 +1,9 @@
+# ERB形式で次の情報が参照可能です。
+# message: メッセージ本文
+# screen_name: スクリーンネーム(ex:moguno)
+# name: ユーザー名(ex:もぐの)
+
+title: ERBコピペ
+text:
+ - |
+  これはテストです<%= "@#{screen_name}" %>
